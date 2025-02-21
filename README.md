@@ -18,13 +18,7 @@ The backend is implemented using FastAPI, and the frontend is built with Streaml
 
 ## Setup and Installation
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/multi-modal-retrieval.git
-cd multi-modal-retrieval
-```
-
-### 2. Create a Virtual Environment and Install Dependencies
+### 1. Create a Virtual Environment and Install Dependencies
 ```bash
 python -m venv venv
 source venv/bin/activate  # For Linux/macOS
@@ -32,7 +26,7 @@ venv\Scripts\activate  # For Windows
 pip install -r requirements.txt
 ```
 
-### 3. Install PyTorch and CLIP
+### 2. Install PyTorch and CLIP
 Ensure you have **PyTorch** installed based on your system configuration.  
 Check [PyTorch installation guide](https://pytorch.org/get-started/locally/).  
 For example, to install PyTorch with CUDA 11.8:
@@ -44,7 +38,7 @@ Then install **CLIP**:
 pip install git+https://github.com/openai/CLIP.git
 ```
 
-### 4. Install FastAPI and Streamlit
+### 3. Install FastAPI and Streamlit
 ```bash
 pip install fastapi uvicorn streamlit scikit-learn pillow requests
 ```
