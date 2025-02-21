@@ -108,4 +108,3 @@ pip install pytest
 
 ---
 
-This README provides all necessary steps to set up, run, and test the Multi-Modal Image Retrieval System.
