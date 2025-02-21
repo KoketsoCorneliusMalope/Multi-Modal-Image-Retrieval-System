@@ -84,7 +84,7 @@ pip install pytest
 ## Assumptions Made
 
 1. **Dataset Availability**  
-   - The system assumes that a folder `test_data_v2` exists at `C:/Users/Khuth/OneDrive/Desktop/Koketso Malope/Multi-Model Retrieval/`, containing images.  
+   - The system assumes that a folder `test_data_v2` exists at `C:/Users/Khuth/OneDrive/Desktop/Koketso Malope/Multi-Modal Retrieval/`, containing images.  
    - If using a different folder, update the `image_folder` path in the script.
 
 2. **CLIP Model**  
