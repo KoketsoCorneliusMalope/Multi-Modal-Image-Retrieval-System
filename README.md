@@ -48,14 +48,14 @@ pip install fastapi uvicorn streamlit scikit-learn pillow requests
 
 ### Step 1: Start the FastAPI Backend
 ```bash
-uvicorn main:app --reload
+uvicorn backend:app --reload
 ```
 - This will start the FastAPI server at `http://127.0.0.1:8000/`.
 - You can access the API documentation at `http://127.0.0.1:8000/docs`.
 
 ### Step 2: Start the Streamlit Frontend
 ```bash
-streamlit run app.py
+streamlit run frontend.py
 ```
 - This will open the Streamlit web interface where users can input text queries and retrieve relevant images.
 
