@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+torch
+torchvision
+numpy
+pillow
+scikit-learn
+streamlit
+requests
